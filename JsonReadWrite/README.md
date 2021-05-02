@@ -13,9 +13,9 @@ Decoder is better than Unmarshal for large files.
 
 # JSON Write
 
-big_encode.json:   597MB
+encode_big.json:   597MB
 
-small_encode.json:   6MB
+encode_small.json:   6MB
 
 
 # Benchmark Test
