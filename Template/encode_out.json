@@ -1,0 +1,26 @@
+{
+    "0001": {
+        "EmpNo": "0001",
+        "FirstName": "Joe",
+        "LastName": "Doe",
+        "Age": 67
+    },
+    "0002": {
+        "EmpNo": "0002",
+        "FirstName": "Tim",
+        "LastName": "Hortons",
+        "Age": 96
+    },
+    "0003": {
+        "EmpNo": "0003",
+        "FirstName": "Sammy",
+        "LastName": "Wang",
+        "Age": 24
+    },
+    "0004": {
+        "EmpNo": "0004",
+        "FirstName": "Peter",
+        "LastName": "Fang",
+        "Age": 38
+    }
+}

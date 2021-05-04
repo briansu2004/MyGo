@@ -1,0 +1,8 @@
+main
+*.exe
+
+*.docker
+Dockerfile
+*.bat
+*.md
+*.html
