@@ -1,13 +1,10 @@
-
-
 # Go Vue WebSockets Chat App
 
 A simple chat web app written in Go, Vue, and WebSockets.
 
-
 ## Build
 
-```
+```dos
 cd ./src
 go mod tidy
 go run .
@@ -15,14 +12,14 @@ go run .
 
 ## Containerization
 
-```
+```dos
 call docker_build.bat
 call docker_run.bat
 ```
 
 ## Docker Hub
 
-```
+```dos
 docker tag websockets-go-vue-chat:latest briansu2004/websockets-go-vue-chat:latest
 
 docker push briansu2004/websockets-go-vue-chat:latest
@@ -38,9 +35,3 @@ docker run -it --rm -p 8000:8000 briansu2004/websockets-go-vue-chat:latest
 http://localhost:8000
 
 ![chat.png](doc/chat.png)
-
-
-## Feedback
-
-Please drop a note to BrianSu2004@hotmail.com for any guides, suggestions, recommendations, ideas, and comments etc. Thanks!
-
