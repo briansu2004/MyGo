@@ -10,6 +10,6 @@
 
 4. go vet
 
-5. go build then run the program generated
-   or (if only 1 main.go file)
-   go run main.go
+5. `go build` then run the program generated
+
+   or (if only 1 main.go file) `go run main.go`
