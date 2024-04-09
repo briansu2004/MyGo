@@ -1,8 +1,17 @@
 # Go Go Go
 
+- [My Go Projects](#my-go-projects)
+  - [My Go Project #2](#my-go-project-2)
+  - [My Go Project #1](#my-go-project-1)
+- [My Go apps 😀](#my-go-apps-)
+- [Go Naming Conventions](#go-naming-conventions)
+- [Kickstart A Go Console App](#kickstart-a-go-console-app)
+
 ## My Go Projects
 
-### 2: Developed end-to-end solutions for managing Dask Kubernetes Clusters, leveraging Full Stack REST APIs and VUE applications deployed on Azure
+### My Go Project #2
+
+Developed end-to-end solutions for managing Dask Kubernetes Clusters, leveraging Full Stack REST APIs and VUE applications deployed on Azure
 
 - Engineered RESTful APIs using Golang for efficient cluster management, ensuring robust functionality and scalability.
 - Containerized backend APIs and UI applications using Docker, enabling seamless deployment and scalability.
@@ -29,7 +38,9 @@ Exposed APIs securely to the public internet through Azure AKS, ensuring accessi
 - Designed and built the CI/CD pipelines with Cloud Source Repository, Cloud Build and GCP Container Registry with Docker and YAML; set up the triggers for the test pipelines and prod pipeline; configured multiple test pipelines can run concurrently.
 - Handed over high quality detailed runbook documentation. -->
 
-### 1: Led the design and implementation of Cloud Functions and CI/CD data pipelines in Google Cloud for a large multinational company
+### My Go Project #1
+
+Led the design and implementation of Cloud Functions and CI/CD data pipelines in Google Cloud for a large multinational company
 
 - Developed and programmed two robust cloud functions in Golang to automate critical processes: Configured one cloud function to monitor incoming Pub/Sub messages and seamlessly integrate them into BigQuery for real-time data analysis; Engineered another cloud function to efficiently archive data from BigQuery to a Google Cloud Storage (GCS) bucket in Avro format using Cloud Schedule, ensuring data integrity and accessibility.
 - Implemented comprehensive unit tests with gomock and integration tests with testify to ensure the reliability and robustness of Golang codebase.
@@ -46,3 +57,11 @@ Exposed APIs securely to the public internet through Azure AKS, ensuring accessi
 [Go Vue WebSockets Chat App](GoVueWebSocketsChat/README.md)
 
 [Go WebSockets](GoWebSocketsConsole/README.md)
+
+## Go Naming Conventions
+
+[Go Naming Conventions](GoNamingConventions.md)
+
+## Kickstart A Go Console App
+
+[Kickstart A Go Console App](KickstartGoConsoleApp.md)
