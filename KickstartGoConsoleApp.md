@@ -1,6 +1,13 @@
-# Kickstart a Go console application
+# Galvanize A Go Console App
 
-Kickstarting a Go console application involves setting up the project, defining the application logic, and handling command-line arguments.
+- [Step 1: Setup Go environment](#step-1-setup-go-environment)
+- [Step 2: Create a new Go module](#step-2-create-a-new-go-module)
+- [Step 3: Create the main file](#step-3-create-the-main-file)
+- [Step 4: Define our application logic](#step-4-define-our-application-logic)
+- [Step 5: Handle command-line arguments](#step-5-handle-command-line-arguments)
+- [Step 6: Build and run our application](#step-6-build-and-run-our-application)
+
+Galvanizing a Go console application involves setting up the project, defining the application logic, and handling command-line arguments.
 
 Here's a step-by-step guide for an example - the program checks if there's at least one command-line argument. If there is, it prints a greeting message with the provided name. Otherwise, it displays usage instructions.
 
@@ -41,7 +48,7 @@ func main() {
 
     // Check if there are any arguments
     if len(args) < 2 {
-        fmt.Println("Usage: myconsoleapp [name]")
+        fmt.Println("Usage: go-kickstart-console-app [name]")
         return
     }
 

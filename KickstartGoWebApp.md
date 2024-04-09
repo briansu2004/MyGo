@@ -1,4 +1,4 @@
-# Kickstart a Go console application
+# Galvanize A Go Web App
 
 - [Step 1: Set Up Our Workspace](#step-1-set-up-our-workspace)
 - [Step 2: Initialize Go Modules (Optional but Recommended)](#step-2-initialize-go-modules-optional-but-recommended)
@@ -8,7 +8,7 @@
 - [Step 6: Test Our Application](#step-6-test-our-application)
 - [Step 7: Deploy Our Application (Optional)](#step-7-deploy-our-application-optional)
 
-Kickstarting a Go web application involves setting up the basic structure, handling dependencies, defining routes, and starting the server.
+Galvanizing a Go web application involves setting up the basic structure, handling dependencies, defining routes, and starting the server.
 
 ## Step 1: Set Up Our Workspace
 
