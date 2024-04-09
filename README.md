@@ -6,6 +6,7 @@
 - [My Go apps 😀](#my-go-apps-)
 - [Go Naming Conventions](#go-naming-conventions)
 - [Kickstart A Go Console App](#kickstart-a-go-console-app)
+- [Kickstart A Go Web App](#kickstart-a-go-web-app)
 
 ## My Go Projects
 
@@ -65,3 +66,7 @@ Led the design and implementation of Cloud Functions and CI/CD data pipelines in
 ## Kickstart A Go Console App
 
 [Kickstart A Go Console App](KickstartGoConsoleApp.md)
+
+## Kickstart A Go Web App
+
+[Kickstart A Go Web App](KickstartGoWebApp.md)
