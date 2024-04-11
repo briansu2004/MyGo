@@ -3,12 +3,7 @@
 - [My Go Projects](#my-go-projects)
   - [My Go Project #2](#my-go-project-2)
   - [My Go Project #1](#my-go-project-1)
-- [My Go apps 😀](#my-go-apps-)
-- [Go Naming Conventions](#go-naming-conventions)
-- [Galvanize Go Apps](#galvanize-go-apps)
-  - [Galvanize A Go Console App](#galvanize-a-go-console-app)
-  - [Galvanize A Go Web App](#galvanize-a-go-web-app)
-  - [Galvanize A Go REST API App](#galvanize-a-go-rest-api-app)
+- [My Go Apps 😀](#my-go-apps-)
 
 ## My Go Projects
 
@@ -53,51 +48,10 @@ Led the design and implementation of Cloud Functions and CI/CD data pipelines in
 - Configured triggers for test pipelines and production pipeline, ensuring seamless integration and continuous delivery of code changes.
 - Implemented concurrent test pipelines for improved efficiency and faster feedback loops.-
 
-## My Go apps 😀
+## My Go Apps 😀
 
 [GO JSON Read & Write](GoJsonReadWrite/README.md)
 
 [Go Vue WebSockets Chat App](GoVueWebSocketsChat/README.md)
 
 [Go WebSockets](GoWebSocketsConsole/README.md)
-
-## Go Naming Conventions
-
-[Go Naming Conventions](GoNamingConventions.md)
-
-## Galvanize Go Apps
-
-<!-- Kickstart -->
-
-### Galvanize A Go Console App
-
-[Kickstart A Go Console App](KickstartGoConsoleApp.md)
-
-### Galvanize A Go Web App
-
-[Kickstart A Go Web App](KickstartGoWebApp.md)
-
-### Galvanize A Go REST API App
-
-
-<!-- Data Processing Tool: You can create a Go application for processing large datasets, such as CSV files, JSON files, or database records. This could involve tasks like data cleaning, transformation, analysis, or visualization.
-
-Command-Line Tool: Develop a command-line interface (CLI) application in Go for performing various tasks, such as file manipulation, system monitoring, text processing, or network operations. CLI tools are versatile and can be very useful for automation and scripting.
-
-Real-Time Chat Application: Build a real-time chat application using Go and websockets. This could involve creating a server to handle incoming connections and messages, as well as a frontend interface for users to send and receive messages in real-time.
-
-Image Processing Tool: Develop an image processing application in Go for tasks like resizing, cropping, filtering, or applying various effects to images. You can utilize existing Go libraries like goimaging or primitive for this purpose.
-
-Authentication Service: Create an authentication service using Go and JWT (JSON Web Tokens) for user authentication and authorization. This could involve features like user registration, login, logout, password reset, and managing user roles.
-
-Task Scheduler: Build a task scheduling application in Go for executing tasks or jobs at specified intervals or times. This could be useful for automating repetitive tasks, performing backups, or triggering certain actions based on specific events.
-
-Content Management System (CMS): Develop a lightweight content management system using Go and a database like MySQL or PostgreSQL. This could involve features like creating, editing, and deleting content, user management, and role-based access control.
-
-File Sharing Service: Create a file sharing service using Go and HTTP or FTP for uploading and downloading files securely. You can implement features like user authentication, file encryption, access control, and expiration dates for shared files.
-
-Geolocation Service: Build a geolocation service in Go for converting IP addresses to geographical locations or performing reverse geocoding (converting coordinates to addresses). You can integrate with third-party APIs like MaxMind or GeoNames for this purpose.
-
-Inventory Management System: Develop an inventory management system using Go for tracking and managing inventory items, orders, shipments, and suppliers. This could include features like barcode scanning, inventory alerts, and reporting capabilities.
-
-These are just a few ideas to get you started. Depending on your interests and requirements, you can explore various domains and come up with unique applications to build using Go. -->
