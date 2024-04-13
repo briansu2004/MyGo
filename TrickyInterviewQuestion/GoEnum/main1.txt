@@ -1,0 +1,36 @@
+package main
+
+import "fmt"
+
+// Enum definition using const and iota
+type Color int
+
+const (
+    Red    Color = iota // 0
+    Green               // 1 (automatically increments)
+    Blue                // 2 (automatically increments)
+)
+
+func (c Color) String() string {
+    // Convert enum value to string
+    names := [...]string{
+        "Red",
+        "Green",
+        "Blue",
+    }
+
+    if c < Red || c > Blue {
+        return "Unknown"
+    }
+
+    return names[c]
+}
+
+func main() {
+    // Using enums
+    var color1 Color = Red
+    var color2 Color = Blue
+
+    fmt.Println("Color 1:", color1) // Output: Color 1: Red
+    fmt.Println("Color 2:", color2) // Output: Color 2: Blue
+}

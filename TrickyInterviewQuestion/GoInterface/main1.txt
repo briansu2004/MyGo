@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
 type Shape interface {
 	Area() float64
@@ -22,26 +19,12 @@ func (r Rectangle) Perimeter() float64 {
 	return 2 * (r.Width + r.Height)
 }
 
-type Circle struct {
-	Radius float64
-}
-
-func (c Circle) Area() float64 {
-	return math.Pi * c.Radius * c.Radius
-}
-
-func (c Circle) Perimeter() float64 {
-	return 2 * math.Pi * c.Radius
-}
-
 func PrintShapeDetails(s Shape) {
 	fmt.Println("Area:", s.Area())
 	fmt.Println("Perimeter:", s.Perimeter())
 }
 
 func main() {
-	rect := Rectangle{Width: 8, Height: 7}
+	rect := Rectangle{Width: 5, Height: 3}
 	PrintShapeDetails(rect)
-	cir := Circle{Radius: 5}
-	PrintShapeDetails(cir)
 }
