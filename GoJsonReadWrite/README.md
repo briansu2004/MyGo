@@ -1,5 +1,11 @@
 # GO JSON Read & Write
 
+- [JSON Read](#json-read)
+  - [Unmarshal](#unmarshal)
+  - [Decoder](#decoder)
+- [JSON Write](#json-write)
+- [Benchmark Test](#benchmark-test)
+
 ## JSON Read
 
 movie.json: 3MB

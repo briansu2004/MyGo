@@ -1,5 +1,10 @@
 # Go Vue WebSockets Chat App
 
+- [Build](#build)
+- [Containerization](#containerization)
+- [Docker Hub](#docker-hub)
+- [Chat](#chat)
+
 A simple chat web app written in Go, Vue, and WebSockets.
 
 ## Build

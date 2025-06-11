@@ -1,5 +1,10 @@
 # Go WebSockets
 
+- [Build](#build)
+- [Containerization](#containerization)
+- [Docker Hub](#docker-hub)
+- [Chrome DevTools](#chrome-devtools)
+
 ## Build
 
 ```dos

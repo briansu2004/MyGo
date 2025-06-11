@@ -1,3 +1,5 @@
 .vscode/
 
 JsonReadWrite/*_big.json
+
+*.exe
