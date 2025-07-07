@@ -14,17 +14,17 @@
 
 <!-- Statistics Canada -->
 
-?: contributed to an Open Source AI Application
+Contributed to an Open Source AI Application
 
 - Tool Replacement for Cost Optimization: Identified and replaced a deprecated Go-based testing tool that had shifted from open-source to a paid license model. Successfully integrated a free, open-source alternative with equivalent capabilities, ensuring continued test coverage and CI pipeline integrity without incurring additional cost.
 
-- Authentication Architecture Update: Adapted to upstream changes in the app’s authentication system, transitioning from OpenID to OAuth 2.0. Updated Kubernetes (K8s) manifests, secrets, and ingress configurations accordingly. Modified Azure AD settings and redirect URIs to align with the new auth flow, ensuring seamless and secure user authentication under the new architecture.
+- Authentication Architecture Update: Adapted to upstream changes in the app's authentication system, transitioning from OpenID to OAuth 2.0. Updated Kubernetes (K8s) manifests, secrets, and ingress configurations accordingly. Modified Azure AD settings and redirect URIs to align with the new auth flow, ensuring seamless and secure user authentication under the new architecture.
 
 ### My Go Project #4
 
 <!-- Hatfield -->
 
-?: Created a web app to manage Dask Kubernetes Clusters and deployed to Azure with Golang REST API on the backend and VUE on the front-end
+Created a web app to manage Dask Kubernetes Clusters and deployed to Azure with Golang REST API on the backend and VUE on the front-end
 
 - Backend in Golang: Developed a robust backend using Golang and the Gin framework for creating lightweight, high-performance REST APIs to manage Dask Kubernetes Clusters. These APIs allowed for dynamic provisioning, scaling, and monitoring of clusters on Azure Kubernetes Service (AKS).
   - Implemented cluster management functions such as creation, scaling, and deletion.
@@ -41,16 +41,16 @@
 
 <!-- Sunlife -->
 
-? : Built the Canadian Dental Care Plan enrollment web app for Health Canada
+Built the Canadian Dental Care Plan enrollment web app for Health Canada
 
 - Backend: Developed a full-stack web application using Golang and RESTful API services, implementing business logic and integrating with the database layer using GORM (Go ORM) for seamless data management. Implemented secure authentication and authorization mechanisms using JWT and middleware patterns in Go.
 - Frontend: Utilized React to build responsive and dynamic user interfaces, incorporating modern features such as React Hooks and Context API to manage state effectively. Integrated Axios for API communication and Material-UI to deliver a clean, user-friendly design. Ensured code quality and scalability by adhering to best practices in component-based development, and conducted comprehensive unit testing using Go's testing package for the backend and Jest for the frontend.
 
 ### My Go Project #2
 
-Thales Group
+<!-- Thales Group -->
 
-?: Spearheaded the design and implementation of Cloud Functions and CI/CD data pipelines within Google Cloud for a prominent multinational corporation.
+Spearheaded the design and implementation of Cloud Functions and CI/CD data pipelines within Google Cloud for a prominent multinational corporation.
 
 - Cloud Function Development: Leveraged Golang to craft robust cloud functions. Notably, configured one cloud function to monitor incoming Pub/Sub messages, efficiently storing them in BigQuery.
 - Additionally, engineered another cloud function with Golang to seamlessly archive BigQuery data to a GCS bucket in Avro format using Cloud Scheduler.
@@ -63,7 +63,7 @@ Thales Group
 
 <!-- RBC -->
 
-?: Built a new web application with APIs and deployed to Azure Cloud
+Built a new web application with APIs and deployed to Azure Cloud
 
 - Developed and deployed a cloud-native web application to Microsoft Azure, leveraging modern DevOps practices and microservices architecture.
 - Designed and implemented RESTful APIs using Golang, integrating with Azure SQL, Redis, and Docker Compose for local orchestration.
