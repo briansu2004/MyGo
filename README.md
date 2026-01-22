@@ -7,6 +7,10 @@
   - [My Go Project #2](#my-go-project-2)
   - [My Go Project #1](#my-go-project-1)
 - [My Go Apps 😀](#my-go-apps-)
+  - [text](#text)
+  - [GO JSON Read \& Write](#go-json-read--write)
+  - [Go Vue WebSockets Chat App](#go-vue-websockets-chat-app)
+  - [Go WebSockets](#go-websockets)
 - [📌 **Popular Go API Frameworks**](#-popular-go-api-frameworks)
   - [✅ **1️⃣ Gin**](#-1️⃣-gin)
   - [✅ **2️⃣ Echo**](#-2️⃣-echo)
@@ -134,11 +138,13 @@ Led the design and implementation of Cloud Functions and CI/CD data pipelines in
 
 ## My Go Apps 😀
 
-[GO JSON Read & Write](GoJsonReadWrite/README.md)
+### [Go Concurrency Demo: Bulk Job Processor](go-ng-cc-app/README.md)
 
-[Go Vue WebSockets Chat App](GoVueWebSocketsChat/README.md)
+### [GO JSON Read & Write](GoJsonReadWrite/README.md)
 
-[Go WebSockets](GoWebSocketsConsole/README.md)
+### [Go Vue WebSockets Chat App](GoVueWebSocketsChat/README.md)
+
+### [Go WebSockets](GoWebSocketsConsole/README.md)
 
 ## 📌 **Popular Go API Frameworks**
 
@@ -207,7 +213,7 @@ When asked _“How do you build APIs in Go?”_, you can say:
 
 ## ✅ **Practical Tip**
 
-- Mention **why you'd choose REST vs gRPC**:
+- **How to choose REST vs gRPC**:
 
   - REST for external APIs: human-readable, easy testing.
   - gRPC for internal services: better performance, strong type contracts.
@@ -287,4 +293,4 @@ If they ask **“How do you test Go code?”**, you can say:
 - **Unit tests** → `testing`, `testify`, `gomock`
 - **Integration tests** → `httptest`, Postman, Docker Compose
 - **Mocking** → `gomock`, `testify/mock`
-- **BDD/E2E** → `Ginkgo`, `Gomega` (if you mention them, be prepared for follow-ups)
+- **BDD/E2E** → `Ginkgo`, `Gomega`
