@@ -1,0 +1,12 @@
+CREATE DATABASE GoAppDB;
+GO
+
+USE GoAppDB;
+GO
+
+CREATE TABLE ProcessedJobs (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    JobName NVARCHAR(100),
+    ProcessedByWorkerID INT,
+    ProcessedAt DATETIME DEFAULT GETDATE()
+);

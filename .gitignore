@@ -1,5 +1,97 @@
+#############################################
+# OS / Editor Files
+#############################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings (optional)
 .vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
 
-JsonReadWrite/*_big.json
 
+#############################################
+# Node / Angular
+#############################################
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Angular build output
+dist/
+dist*/
+out-tsc/
+
+# Angular cache
+.angular/
+.angular/cache/
+
+# Environment files (keep secrets out of Git)
+*.env
+.env.*
+src/environments/environment*.ts
+
+# Package lock files (optional – uncomment if you want)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+#############################################
+# Go (Golang)
+#############################################
+
+# Binaries
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+bin/
+build/
+cmd/*/bin/
+
+# Go workspace files
+go.work
+go.work.sum
+
+
+#############################################
+# Logs / Temporary Files
+#############################################
+
+*.log
+logs/
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+coverage.out
+
+# IDE
+.idea/
+*.iml
+
+# Temporary backup files
+*~
+*.swp
+*.swo
